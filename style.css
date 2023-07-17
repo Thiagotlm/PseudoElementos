@@ -1,0 +1,41 @@
+code{
+    background-color: lightgrey;
+}
+/*Estilizando a primeira letra de cada parágrafo
+p::first-letter{
+    color: blue;
+    background-color: lightgreen;
+    font-size: 30px;
+}*/
+
+/*estilizando primeira linha
+
+p::first-line{
+    background: lightblue;
+    color: red;
+    font-size: 1.2rem;
+
+}*/
+
+/*pseudo elemento marker
+
+summary::marker{
+    content: '✝';
+    color: red; 
+}
+li::marker{
+    content: '✝';
+    color: blue;
+}*/
+
+/*pseudo elemento placeholder
+
+input::placeholder{
+    color: blue;
+    background-color: lightblue;
+}*/
+
+/*elemento selection*/
+::selection{
+    background-color: lightblue;
+}
